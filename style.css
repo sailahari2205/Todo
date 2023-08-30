@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blue;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  input[type="text"] {
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  button {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  h2 {
+    margin-top: 30px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  .completed-task {
+    text-decoration: line-through;
+  }
